@@ -64,7 +64,7 @@ class LiveClient(TencentCloudClient):
             domain_name: 推流域名
 
         Returns:
-            PlayAuthKeyInfo: 推流鉴权key信息
+            PlayAuthKeyInfo: 播放鉴权key信息
             请求ID
         """
         params = {
