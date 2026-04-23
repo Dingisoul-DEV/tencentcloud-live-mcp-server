@@ -181,7 +181,7 @@ async def describe_play_addr(
             transcode_template: 转码模版ID(optional)
 
         Returns:
-            PushAuthKeyInfo: 推流鉴权key信息
+            PlayAuthKeyInfo: 播放鉴权key信息
             RTMPAddr: RTMP地址
             请求ID
     """
